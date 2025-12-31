@@ -6,5 +6,6 @@ The first goal of this project will be providing physics functionality to a N64 
 
 The initial tasks to accomplish this goal will be:
 - ~~refactor the code to be organized~~
-- compile the code using the libdragon toolchain
+- ~~compile the code using the libdragon toolchain~~
+- create an new sample using libdragon
 - recreate the samples using libdragon and Tiny3D.

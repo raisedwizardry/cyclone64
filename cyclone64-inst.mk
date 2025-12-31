@@ -1,0 +1,1 @@
+N64_LDFLAGS := -lcyclone64 $(N64_LDFLAGS)
