@@ -10,3 +10,6 @@ cmake*/
 .idea/
 .vscode/
 .vs/
+
+# os files
+.DS_Store

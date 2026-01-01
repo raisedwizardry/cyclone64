@@ -83,6 +83,7 @@ namespace cyclone {
         unsigned maxContacts;
 
     public:
+
         /**
          * Creates a new simulator that can handle up to the given
          * number of contacts per frame. You can also optionally give
@@ -91,6 +92,10 @@ namespace cyclone {
          * number of detected contacts will be used for each frame.
          */
         World(unsigned maxContacts, unsigned iterations=0);
+
+        /**
+         * Deletes the simulator.
+         */
         ~World();
 
         /**

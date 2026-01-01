@@ -14,7 +14,6 @@
 
 using namespace cyclone;
 
-
 void ParticleForceRegistry::updateForces(float duration)
 {
     Registry::iterator i = registrations.begin();
@@ -80,7 +79,7 @@ void ParticleSpring::updateForce(Particle* particle, float duration)
 
     // Calculate the magnitude of the force
     float magnitude = force.magnitude();
-    magnitude = real_abs(magnitude - restLength);
+    magnitude = magnitude - restLength;
     magnitude *= springConstant;
 
     // Calculate the final force and apply it

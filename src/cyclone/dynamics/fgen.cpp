@@ -11,7 +11,6 @@
  */
 
 #include "fgen.h"
-#include "../common/precision.h"
 
 using namespace cyclone;
 
@@ -26,7 +25,7 @@ void ForceRegistry::updateForces(float duration)
 
 void ForceRegistry::add(RigidBody *body, ForceGenerator *fg)
 {
-    ForceRegistry::ForceRegistration registration;
+    ForceRegistration registration;
     registration.body = body;
     registration.fg = fg;
     registrations.push_back(registration);

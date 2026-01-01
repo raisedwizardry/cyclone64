@@ -24,7 +24,6 @@
 #include "../common/core.h"
 #include <cstddef>
 #include "../common/contacts.h"
-#include "../common/precision.h"
 
 namespace cyclone {
 
